@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logoG.png'
+import Logo from './Logo'
 import { useState, useEffect } from 'react'
 
 const Home = () => {
@@ -62,6 +63,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   )
 }
