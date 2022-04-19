@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logoG.png'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,6 +23,17 @@ const Home = () => {
     'r',
     '.',
   ]
+
+  useEffect(() => {
+    // wrap setTimeout in async wait function to fix useEffect must return a
+    // cleanup function or nothing Error
+    async function wait() {
+      return setTimeout(() => {
+        setLetterClass('text-animate-hover')
+      }, 4000)
+    }
+    wait()
+  }, [])
 
   return (
     <div className="container home-page">
