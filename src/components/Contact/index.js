@@ -55,6 +55,7 @@ const Contact = () => {
             I am interested in any intern or job offer as an web developer.
             Please contact with me using below form.
           </p>
+          <p>&nbsp;</p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
@@ -92,12 +93,10 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Grzegorz Wolfinger,
+          Grzegorz Wolfinger
           <br />
-          Poland,
-          <br />
-          Zamieście 99 <br />
-          34-650 Tymbark <br />
+          Zamieście 99 , 34-650 Tymbark <br />
+          Poland
           <span>grzegorz.wolfinger@gmail.com</span>
         </div>
         <div className="map-wrap">

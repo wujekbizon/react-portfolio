@@ -51,10 +51,10 @@
     max-height: 90%;
 
     h1 {
-      font-size: 53px;
+      font-size: 65px;
       font-family: 'Coolvetica';
       color: #fa8231;
-      font-weight: 400;
+      font-weight: 300;
       margin-top: 0;
       position: relative;
       margin-bottom: 40px;
@@ -115,6 +115,29 @@
 }
 
 @media (max-width: 960px) {
+  .page {
+    height: auto;
+    position: relative;
+  }
+
+  .top-tags {
+    bottom: auto;
+    top: 76px;
+  }
+
+  .tags {
+    margin-left: 30px;
+    left: 0;
+  }
+
+  .bottom-tags {
+    position: absolute;
+    clear: both;
+    float: left;
+    margin-top: 22px;
+    bottom: 0;
+  }
+
   .container {
     width: 100%;
     height: auto;
@@ -123,5 +146,19 @@
     position: relative;
     top: 0;
     overflow: hidden;
+
+    .text-zone {
+      position: static !important;
+      min-height: 350px;
+      float: left;
+      margin-left: 10%;
+      transform: none !important;
+      margin-top: 170px;
+
+      h1 {
+        font-size: 48px !important;
+        line-height: 45px;
+      }
+    }
   }
 }
