@@ -52,7 +52,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in any intern or job offer as an web developer.
+            I am interested in any intern or job offers as an web developer.
             Please contact with me using below form.
           </p>
           <p>&nbsp;</p>

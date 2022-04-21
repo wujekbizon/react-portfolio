@@ -78,3 +78,16 @@
     transform: rotateX(90deg);
   }
 }
+
+@media (max-width: 960px) {
+  .stage-cube-cont {
+    position: relative;
+    width: 100%;
+    height: 445px;
+  }
+
+  .container.about-page .text-zone {
+    width: 80%;
+    min-height: 0;
+  }
+}
