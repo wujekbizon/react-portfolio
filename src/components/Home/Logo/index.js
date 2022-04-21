@@ -23,11 +23,11 @@ const Logo = () => {
       .fromTo(
         outlineLogoRef.current,
         {
-          duration: 18,
+          duration: 15,
           drawSVG: '0%',
         },
         {
-          duration: 18,
+          duration: 15,
           drawSVG: '0% 100% ',
         }
       )

@@ -43,3 +43,46 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 1300px) {
+  .logo-container {
+    width: 350px;
+    height: 430px;
+
+    .solid-logoW {
+      width: 400px !important;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo-container {
+    width: 263px;
+    height: 300px;
+
+    .solid-logoW {
+      width: 300px !important;
+    }
+  }
+
+  .home-page .text-zone {
+    width: 80%;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .logo-container {
+    position: absolute;
+    top: 0;
+    bottom: -255px;
+    width: 125px;
+    height: 80px;
+
+    .solid-logoW {
+      margin-top: 5px;
+      right: -30px;
+      width: 200px !important;
+    }
+  }
+}

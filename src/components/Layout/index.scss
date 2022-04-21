@@ -15,6 +15,7 @@
   position: absolute;
   bottom: 0;
   left: 100px;
+  margin-bottom: 10px;
   font-size: 18px;
   font-family: 'La Belle Aurore', cursive;
 }
@@ -126,22 +127,15 @@
   }
 
   .tags {
-    margin-left: 30px;
+    margin-left: 40px;
     left: 0;
-  }
-
-  .bottom-tags {
-    position: absolute;
-    clear: both;
-    float: left;
-    margin-top: 22px;
-    bottom: 0;
   }
 
   .container {
     width: 100%;
     height: auto;
-    padding-bottom: 58px;
+    margin-top: 80px;
+    padding-bottom: 150px;
     box-sizing: border-box;
     position: relative;
     top: 0;
@@ -158,6 +152,13 @@
       h1 {
         font-size: 48px !important;
         line-height: 45px;
+        margin-left: 30px;
+      }
+
+      h2 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 13px;
       }
     }
   }
