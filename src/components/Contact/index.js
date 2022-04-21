@@ -52,8 +52,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in any job offer as an web developer or intern. Feel
-            free to contact with me using below form.
+            I am interested in any intern or job offer as an web developer.
+            Please contact with me using below form.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -101,7 +101,7 @@ const Contact = () => {
           <span>grzegorz.wolfinger@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[49.7087783, 20.3086625]} zoom={13}>
+          <MapContainer center={[49.7087783, 20.3086625]} zoom={10}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[49.7087783, 20.3086625]}>
               <Popup>

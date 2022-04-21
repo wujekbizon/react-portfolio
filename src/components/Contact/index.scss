@@ -66,21 +66,28 @@
     border: 1px solid #fa8231;
     float: right;
     border-radius: 3px;
+
+    &:hover {
+      background: #fa8231;
+      color: #182c61;
+    }
   }
 }
 
 .info-map {
   position: absolute;
-  background-color: #000;
+  background-color: #222f3e;
   top: 50px;
   right: 30%;
   z-index: 999999;
-  width: 267px;
+  width: 250px;
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
   font-size: 17px;
   font-weight: 300;
+  text-align: center;
+  border-radius: 5px;
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;

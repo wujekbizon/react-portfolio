@@ -1,11 +1,11 @@
 .logo-container {
   z-index: 0;
-  width: 600px;
-  height: 700px;
+  width: 500px;
+  height: 600px;
   position: absolute;
   top: 0;
   right: 15%;
-  bottom: 0;
+  bottom: 15%;
   left: auto;
   margin: auto;
 
@@ -30,7 +30,16 @@
   }
 
   .svg-container {
-    stroke: #fa8231;
-    stroke-width: 0.5;
+    stroke: #182c61;
+    stroke-width: 1;
+  }
+
+  .solid-logoW {
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    right: 0;
+    width: 600px;
+    opacity: 0;
   }
 }

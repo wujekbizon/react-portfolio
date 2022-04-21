@@ -37,10 +37,9 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm looking for a position as an web developer. My career goal as a
-            software developer is to become an expert in a programming languages
-            JavaScript, Typescript , master them and other frameworks (React.js,
-            Node.js, Express.js)
+            My career goal as a software developer is to become an expert in a
+            programming languages JavaScript, Typescript , master them and other
+            frameworks (React.js, Node.js, Express.js)
           </p>
           <p>
             I'm quietly confident, naturally curious person and perpetually

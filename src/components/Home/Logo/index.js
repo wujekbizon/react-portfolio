@@ -1,5 +1,6 @@
 import './index.scss'
-import LogoS from '../../../assets/images/log_gL2.png'
+import LogoG from '../../../assets/images/log_gL2.png'
+import LogoW from '../../../assets/images/logo_sub-v3.png'
 import { useEffect, useRef } from 'react'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import gsap from 'gsap-trial'
@@ -8,6 +9,7 @@ const Logo = () => {
   const bgRef = useRef()
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
+  const solidLogoWRef = useRef()
 
   useEffect(() => {
     gsap.registerPlugin(DrawSVGPlugin)
@@ -29,7 +31,6 @@ const Logo = () => {
           drawSVG: '0% 100% ',
         }
       )
-
     gsap.fromTo(
       solidLogoRef.current,
       {
@@ -41,6 +42,18 @@ const Logo = () => {
         duration: 4,
       }
     )
+
+    gsap.fromTo(
+      solidLogoWRef.current,
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        delay: 6,
+        duration: 4,
+      }
+    )
   }, [])
 
   return (
@@ -48,7 +61,7 @@ const Logo = () => {
       <img
         ref={solidLogoRef}
         className="solid-logo"
-        src={LogoS}
+        src={LogoG}
         alt="JavaScript, Developer"
       />
       <svg
@@ -70,6 +83,13 @@ const Logo = () => {
           />
         </g>
       </svg>
+
+      <img
+        ref={solidLogoWRef}
+        className="solid-logoW"
+        src={LogoW}
+        alt="Wolfinger"
+      />
     </div>
   )
 }
