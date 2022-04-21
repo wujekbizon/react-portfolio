@@ -113,3 +113,15 @@
     }
   }
 }
+
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 58px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+  }
+}
