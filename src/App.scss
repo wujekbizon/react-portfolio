@@ -36,3 +36,51 @@ textarea {
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
+
+#navBar button {
+  display: none;
+}
+
+@media (max-width: 530px) {
+  #navBar {
+    position: relative;
+
+    button {
+      display: block;
+      position: fixed;
+      margin-top: 3px;
+      right: 10px;
+      top: 5px;
+      z-index: 10;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+
+      &:hover {
+        line {
+          color: #fa8231;
+        }
+        path {
+          color: #fa8231;
+        }
+      }
+    }
+
+    line {
+      color: #fff;
+    }
+  }
+
+  .menuNav {
+    opacity: 0;
+  }
+
+  .menuNav.showMenu {
+    margin-top: 60px !important;
+    animation: fadeInDown 1.2s 0.5s forwards;
+    a::after {
+      font-size: 8px;
+      color: #fff !important;
+    }
+  }
+}
