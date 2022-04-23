@@ -52,13 +52,13 @@
   }
 
   h2 {
-    color: #182c61;
+    color: rgba(255, 255, 255, 0.5);
     margin-top: 20px;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 16px;
     font-family: sans-serif;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeInRight 1.4s 1.8s backwards;
   }
 
   .flat-button {
@@ -72,7 +72,7 @@
     border: 1px solid #fa8231;
     margin-top: 25px;
     float: left;
-    animation: fadeIn 1.3s 1.8s backwards;
+    animation: bounceInUp 1.3s 1.8s backwards;
     white-space: nowrap;
     border-radius: 3px;
 
