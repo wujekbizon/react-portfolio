@@ -58,7 +58,7 @@ const Contact = () => {
           <p>&nbsp;</p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
-              <ul>
+              <ul id="form">
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
                 </li>
