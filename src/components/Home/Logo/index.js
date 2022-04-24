@@ -13,7 +13,7 @@ const Logo = () => {
 
   useEffect(() => {
     gsap.registerPlugin(DrawSVGPlugin)
-
+    gsap.config({ trialWarn: false })
     gsap
       .timeline()
       .to(bgRef.current, {
