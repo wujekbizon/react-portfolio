@@ -32,6 +32,7 @@
   .svg-container {
     stroke: #fa8231;
     stroke-width: 0.75;
+    animation: zoomIn 2s 1s;
   }
 
   .solid-logoW {
@@ -41,7 +42,7 @@
     right: 0;
     width: 600px;
     opacity: 0;
-    animation: fadeInRightBig 1s 5s forwards;
+    animation: jackInTheBox 2s 4s forwards;
   }
 }
 
