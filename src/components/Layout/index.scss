@@ -163,3 +163,15 @@
     }
   }
 }
+
+@media (max-width: 420px) {
+  .container .text-zone {
+    h1 {
+      font-size: 36px !important;
+    }
+
+    h2 {
+      font-size: 11px;
+    }
+  }
+}

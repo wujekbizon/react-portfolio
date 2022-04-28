@@ -88,3 +88,15 @@
     }
   }
 }
+
+@media (max-width: 430px) {
+  .logo-container {
+    width: 60px;
+    height: 80px;
+
+    .solid-logoW {
+      right: -15px;
+      width: 100px !important;
+    }
+  }
+}

@@ -85,11 +85,26 @@
 
 @media (max-width: 960px) {
   .home-page h1::before {
-    margin-left: 30px !important;
+    margin-top: -30px !important;
+    margin-left: 80px !important;
   }
   .home-page h1::after {
     margin: 0 !important;
     margin-top: 15px !important;
     margin-left: 10px !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .home-page {
+    h1::before {
+      margin-top: -25px !important;
+      margin-left: 45px !important;
+    }
+
+    .flat-button {
+      padding: 5px 9px;
+      font-size: 10px;
+    }
   }
 }
